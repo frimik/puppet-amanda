@@ -1,0 +1,4 @@
+define amanda::volume {
+	
+	
+}
