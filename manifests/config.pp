@@ -1,4 +1,0 @@
-class amanda::config {
-	
-	
-}
