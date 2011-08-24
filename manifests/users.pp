@@ -1,0 +1,3 @@
+class amanda::users {
+	
+}
