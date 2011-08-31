@@ -2,8 +2,6 @@ class amanda::server::install {
 	
   package { "amanda-backup-server":
 		ensure   => installed,
-		provider => dpkg,
-		source   => "${debrepository}/amanda-backup-server_3.3.0-1Ubuntu1004_amd64.deb",
 		require  => [ Class[Amanda::Server::Prereqs], User["amandabackup"] ],
 	}
 	

@@ -1,5 +1,5 @@
 class amanda::client::prereqs {
-	package { ["xinetd"] :
+	package { ["xinetd", "tar" ] :
 		ensure => present,
 	}
 }
