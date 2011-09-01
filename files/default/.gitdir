@@ -1,0 +1,2 @@
+The "default" directory is where amanda::config will look for
+files if there is no fqdn dir for the host.
